@@ -35,7 +35,7 @@ gem 'mini_magick', '3.8.0'
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
+  gem 'capybara', '~> 2.15'
   gem 'selenium-webdriver'
   # Loads environment variables
   gem 'dotenv-rails', '~> 2.2.1'
