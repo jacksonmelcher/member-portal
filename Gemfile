@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'carrierwave', '~> 1.1.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'mini_magick', '3.8.0'
+gem 'mini_magick', '4.8.0'
 
 
 group :development, :test do
