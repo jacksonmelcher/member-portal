@@ -30,6 +30,9 @@ gem 'carrierwave', '~> 1.1.0'
 # gem 'capistrano-rails', group: :development
 gem 'mini_magick', '3.8.0'
 
+# Algolia - SaaS Searchss
+gem 'algoliasearch-rails', '~> 1.14.0'
+
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Adds support for Capybara system testing and selenium driver
